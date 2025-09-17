@@ -1,0 +1,2 @@
+# hashi
+Duckling game
