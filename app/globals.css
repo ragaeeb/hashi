@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fefbf5;
+  --foreground: #1f150e;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #111015;
+    --foreground: #f4ede7;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Nunito", "Trebuchet MS", "Segoe UI", sans-serif;
+}
